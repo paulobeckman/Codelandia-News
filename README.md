@@ -1,5 +1,5 @@
 <h4 align="center"> 
-	Codelândia 
+	Desafio 01 - Codelândia 
 </h4>
  
 <p align="center">
@@ -24,12 +24,13 @@
 
 
 ## 💻 Sobre o projeto
-Esse projeto foi feito como primeiro desafio da comunidade Codelândia do [Iuri Silva][iuri]
+Esse projeto é um desafio da comunidade do discorde Codelândia do [Iuri Silva][iuri]
 
-Codelândia News - é uma landing page de noticias que mostra as manchetes de notícias e blogs da web utilizando uma a api da [newsapi][np]
+Desenvolvi o desafio de acordo como pedido e fui além e implementei um conexão com api para mostrar noticias reais.
+
+A Codelândia News - é uma landing page de noticias que mostra as manchetes de notícias e blogs da web utilizando uma a api da [newsapi][np]. Além disso, a pagina conta com animações da [ScrollrevealJS][bJS]  presentes em cada card de noticia.
 
 As noticias são apresentadas em cartões contendo data da postagem, titulo e descrição.
-
 
 ## 🎨 Layout
 
@@ -61,6 +62,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JavaScript][JavaScript]
 - [Nunjucks][Nunjucks]
 - [News Api][np]
+- [ScrollrevealJS][bJS]
 
 
 ## 🚀 Como rodar este projeto
@@ -109,4 +111,4 @@ Feito por Paulo Beckman 👋🏽 [Entre em contato!](https://www.linkedin.com/in
 [Nunjucks]: https://www.npmjs.com/package/nunjucks
 [np]: https://newsapi.org/
 [iuri]: https://github.com/iuricode
-
+[bJS]: https://scrollrevealjs.org/
