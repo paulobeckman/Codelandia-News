@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">   
+    <link rel="stylesheet" href="styles.css">   
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <article>
+                <nav>
+                    <p>Codelândia</p>
+                    <p>blog</p>
+                </nav>
+
+                <form action="*">
+                    <i class="material-icons">search</i>
+                    <input 
+                        type="text" 
+                        placeholder="Pesquisar no blog">
+                </form>
+            </article>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            {% for article in articles%}
+                <article class="post">
+                    <div class="rows">
+                        <p>{{article.publishedAt}}</p>
+                        <i class="material-icons">favorite_border</i>
+                    </div>
+
+                    <span>
+                        <h1 class="title">{{article.title}}</h1>
+                        <p class="description">{{article.description}}</p>
+                    </span>
+                </article>   
+            {%endfor%}        
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.post', { delay: 200 });
+        ScrollReveal().reveal('.date', { delay: 400 });
+        ScrollReveal().reveal('.title', { delay: 400 });
+        ScrollReveal().reveal('.description', { delay: 400 });
+    </script>   
+</body>
+</html>
