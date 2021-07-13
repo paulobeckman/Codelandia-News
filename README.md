@@ -28,7 +28,7 @@ Esse projeto é um desafio da comunidade do discorde Codelândia do [Iuri Silva]
 
 Desenvolvi o desafio de acordo como pedido e fui além e implementei um conexão com api para mostrar noticias reais.
 
-A Codelândia News - é uma landing page de noticias que mostra as manchetes de notícias e blogs da web utilizando uma a api da [newsapi][np]. Além disso, a pagina conta com animações da [ScrollrevealJS][bJS]  presentes em cada card de noticia.
+A Codelândia News - é uma landing page de noticias que mostra as manchetes de notícias e blogs da web utilizando a api da [newsapi][np]. Além disso, a pagina conta com animações da [ScrollrevealJS][bJS]  presentes em cada card de noticia.
 
 As noticias são apresentadas em cartões contendo data da postagem, titulo e descrição.
 
