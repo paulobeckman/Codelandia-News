@@ -24,7 +24,7 @@
 
 
 ## 💻 Sobre o projeto
-Esse projeto é um desafio da comunidade do discorde Codelândia do [Iuri Silva][iuri]
+Esse projeto é um desafio da comunidade do discord Codelândia do [Iuri Silva][iuri]
 
 Desenvolvi o desafio de acordo como pedido e fui além e implementei um conexão com api para mostrar noticias reais.
 
